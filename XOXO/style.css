@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    position: relative;
+    background-color: #b8c1ec;
+    font-family: Tahoma;   
+}
+
+.sidenav {
+    height: 100%;
+    width: 10%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #eebbc3;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #232946;
+    display: block;
+  }
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.container{
+    border-radius: 25px;
+    left: 5%;
+    right: 5%;
+    width: 80%;
+    height: 100%;
+    background-color: #232946;
+    position: fixed;
+}
+
+.miniContainer{
+    width: 200px;
+    height: 150px;
+    background-color: #eebbc3;
+    border-radius: 25px;
+    padding: 10px;
+    display: inline-block;
+    /* align-items: center; */
+    justify-content: center;
+    position: absolute;
+    left: 40px;
+    bottom: 20px;
+}
+
+#title{
+    text-align: center;
+    font-size: 60px;
+    color: #fffffe;
+}
+
+.title-nav{
+    text-align: justify;
+    color: #232946;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.cell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fffffe;
+    border: 2px solid #121629;
+    box-shadow: 0 0 0 2px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+
+#cellContainer{
+    display: grid;
+    width: 400px;
+    margin: auto;
+    margin-top: 3%;
+}
+
+#numText{
+    font-family: "Permanent Marker", cursive;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #232946;
+}
+
+#restartBtn{
+    font-family: Tahoma;
+    font-size: 24px;
+    width: 175px;
+    height: 40px;
+    border-radius: 8px;
+    border-width: 1px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-color: #fffffe;
+    color: #232946;
+}
+
+.size-bttn{
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: #fffffe;
+    color: #232946;
+}
+
+#statusText {
+    font-size: 2rem;
+    margin-top: 15px;
+    color: #b8c1ec;
+    font-family: Tahoma;
+}
+
+#bttnContainer{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#winScore{
+    font-size: 1.5rem;
+}

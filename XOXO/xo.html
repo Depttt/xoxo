@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic tck toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="sidenav">
+        <h2 class="title-nav">History play</h2>
+        <h2 class="title-nav">Score X : O</h2>
+        <!-- <h2 id="winScore"></h2> -->
+    </div>
+
+    <div class="container">
+
+        <h1 id="title"> Tic Tac Toe</h1>
+        <div id="gameContainer">
+            <h2 id="statusText"></h2>
+            <div id="cellContainer" ></div>
+        </div>
+
+        <div class=" miniContainer">
+            <div id="numText"></div>
+            <div id="bttnContainer">
+                <button class="size-bttn" id="minSize"><</button>
+                <button class="size-bttn" id="decreaseSize">-</button>
+                <button class="size-bttn" id="increaseSize">+</button>
+                <button class="size-bttn" id="maxSize">></button>
+            </div>
+            <button id="restartBtn">Restart</button>
+        </div>
+
+    </div>
+    
+    <script src="app.js"></script>
+
+    
+</body>
+</html>
